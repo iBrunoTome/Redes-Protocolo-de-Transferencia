@@ -1,0 +1,174 @@
+RFC:
+
+
+
+Protocolo BCR
+
+
+Julho 2015
+
+
+Realizado para
+
+Disciplina Redes de Computadores
+Curso de Ciência da da Computação 
+Instituto Federal de Minas Gerais
+Rua Padre Alberico, 440 - São Luiz 
+Formiga MG - 35570-000 - Minas Gerais - Brasil
+
+Produzido por
+
+Bruno Tomé 
+Cláudio Menezes
+Ronan Nunes
+
+
+
+SUMÁRIO
+
+1. INTRODUÇÃO ..................................................... 1
+
+2. COMANDOS ......................................................... 2
+
+2.1  RETR................................... 2
+2.2  STOR................................... 2
+2.3  DELE............................................ 2
+2.4  MKD.......................................... 2
+2.5  NLST...................................................... 2
+2.6  LIST...................................................... 2
+2.7  QUIT...................................................... 2
+2.8  HELP...................................................... 2
+
+
+3. REFÊRENCIAS ................................................... 3
+
+
+
+
+
+
+[Página 1]
+
+
+Julho 2015
+Protocolo BCR
+
+
+
+1. INTRODUÇÃO
+
+O protocolo BCR age sobre o protocolo TCP, com transfêrencia confiável de arquivos em rede, 
+em arquitetura cliente servidor. Este documento descreve como usar o protocolo BCR 
+para transferência de arquivos criptografados. 
+
+
+
+
+[Página 2]
+
+
+
+Julho 2015
+Protocolo BCR
+
+
+
+2. COMANDOS 
+
+2.1  RETR
+ Obtém uma cópia do arquivo especificado (download para o cliente).
+ Um metódo alternativo de chamá-lo por meio do comando "get".
+ Por meio da sintáxe abaixo, exemplos:
+   
+   $ RETR <nome_do_arquivo>
+   $ get <nome_do_arquivo>
+
+2.2  STOR
+Envia uma cópia do arquivo especificado (upload para o servidor).
+Um metódo alternativo de chamá-lo por meio do comando "get".
+Por meio da sintáxe abaixo, exemplos:
+   
+   $ STOR <nome_do_arquivo>
+   $ get <nome_do_arquivo>
+
+2.3  DELE
+Apaga o arquivo especificado no servidor.
+Um metódo alternativo de chamá-lo por meio do comando "rm".
+Por meio da sintáxe abaixo, exemplos:
+   
+   $ DELE <nome_do_arquivo>
+   $ rm <nome_do_arquivo>
+
+
+
+2.4  MKD 
+Cria um diretório com o nome desejado.
+Um metódo alternativo de chamá-lo por meio do comando "mkdir".
+Por meio da sintáxe abaixo, exemplos:
+   
+   $ MKD <nome_do_diretório>
+   $ mkdir <nome_do_diretório>
+
+2.5  NLST
+Lista os nomes dos arquivos de um diretório.
+Um metódo alternativo de chamá-lo por meio do comando "ls".
+Por meio da sintáxe abaixo, exemplos:
+   
+   $ NLST 
+   $ ls 
+
+2.6  LIST
+Retorna informações do arquivo ou diretório especificado (* ex.: nome, tamanho, data de
+modificação, etc).Um metódo alternativo de chamá-lo por meio do comando "lsl".
+Por meio da sintáxe abaixo, exemplos:
+   
+   $ LIST 
+   $ lsl 
+
+
+
+2.7  QUIT
+Desconecta, encerrando a conexão com o servidor. 
+Um metódo alternativo de chamá-lo por meio do comando "exit".
+Por meio da sintáxe abaixo, exemplos:
+   
+   $ QUIT 
+   $ exit 
+
+
+
+2.8  HELP
+Retorna documentação de uso de um comando específico, se especificado; ou um nanual
+geral de ajuda. Um metódo alternativo de chamá-lo por meio do comando "?".
+Por meio da sintáxe abaixo, exemplos:
+   
+   $ HELP 
+   $ ? 
+   $ ? <comando> 
+   
+
+[Página 3]
+
+
+Julho 2015
+Protocolo BCR
+
+
+
+3. REFERÊNCIAS
+
+http://www.devmedia.com.br/, acessado em junlho de 2015
+
+http://www.byiorio.com/wordpress/2013/10/30/java-transferindo-arquivos-via-socket/#sthash.qvWszDdm.dpbs, acessado em junlho de 2015
+
+http://www.guj.com.br/java/203036-transferencia-de-arquivos-txt-pdf-tiff-via-sockets-upload-and-download, acessado em junlho de 2015
+
+
+
+
+
+
+
+
+
+
