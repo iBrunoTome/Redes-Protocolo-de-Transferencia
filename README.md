@@ -1,6 +1,6 @@
 # Protocolo Confiável de Transferência de Arquivos em Rede
 
-Trabalho realizado no 5º período de Ciência da Computação no Instituto Federal de Minas Gerais (IFMG) - Campus Formiga para a disciplina de Redes. Protocolo confiável de transferência de arquivos em rede.
+Protocolo confiável de transferência de arquivos em rede. Trabalho realizado no 5º período de Ciência da Computação no Instituto Federal de Minas Gerais (IFMG) - Campus Formiga para a disciplina de Redes.
 
 - Integrantes
 	- Bruno Tomé
