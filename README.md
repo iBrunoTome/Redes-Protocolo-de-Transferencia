@@ -1,6 +1,4 @@
-------------------------
-| README PROTOCOLO BCR |
-------------------------
+# Protocolo confiável de transferência de arquivos em rede
 
 Trabalho realizado no 5º período de Ciência da Computação no Instituto Federal de Minas Gerais (IFMG) - Campus Formiga para a disciplina de Redes. Protocolo confiável de transferência de arquivos em rede.
 
@@ -8,7 +6,7 @@ Trabalho realizado no 5º período de Ciência da Computação no Instituto Fede
 	- Bruno Tomé
 	- Cláudio Menezes
 	- Ronan Nunes
-	
+
 (i) Como compilar:
 	- Basta abrir o terminal, navegar até a pasta protocoloBCR e compilar usando ./compilar.sh
 
